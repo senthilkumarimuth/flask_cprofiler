@@ -7,12 +7,12 @@ Cprofiler for flask application. For each api request, it returns stats
 
 # Understandign the profiler output
 
-ncalls: number of times the function was called.
-tottime: total time spent inside the function (excluding calls to sub or inner functions).
-percall: tottime divided by ncalls.
-cumtime: total time spent inside the functions and any subfunctions called inside, including recursive calls.
-percall: cumtime divided by ncalls.
-filename:lineno(function): file name and line location for the respective entry.
+ncalls: number of times the function was called.<br />
+tottime: total time spent inside the function (excluding calls to sub or inner functions).<br />
+percall: tottime divided by ncalls.<br />
+cumtime: total time spent inside the functions and any subfunctions called inside, including recursive calls.<br />
+percall: cumtime divided by ncalls.<br />
+filename:lineno(function): file name and line location for the respective entry.<br />
 
 # More details
 
