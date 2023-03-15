@@ -5,6 +5,10 @@ Cprofiler for flask application. For each api request, it returns stats
 
 ![Alt text](./readme_files/sample.PNG?raw=true "vectorstore")
 
+# warning
+
+When a restriction is applied, stream to file feature is not working!
+
 # Understandign the profiler output
 
 ncalls: number of times the function was called.<br />
